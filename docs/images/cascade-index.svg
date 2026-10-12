@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1800" viewBox="0 0 1400 1800" role="img" aria-labelledby="title description">
+<title id="title">Как составляется список для удаления</title><desc id="description">Индекс здесь — временная записная книжка обработки</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#64748b"/></marker></defs>
+<style>text{font-family:'Segoe UI',Arial,sans-serif;fill:#17243a} .arrow{fill:none;stroke:#64748b;stroke-width:3;stroke-linejoin:round;stroke-linecap:round;marker-end:url(#arrow)}</style>
+<rect width="1400" height="1800" fill="#f8fafc"/><rect width="1400" height="150" fill="#142236"/>
+<text x="52" y="67" text-anchor="start" style="font-size:42px;fill:#ffffff;font-weight:700"><tspan x="52" dy="0">Как составляется список для удаления</tspan></text>
+<text x="54" y="113" text-anchor="start" style="font-size:25px;fill:#cbd5e1;font-weight:400"><tspan x="54" dy="0">Индекс здесь — временная записная книжка обработки</tspan></text>
+<rect x="280" y="205" width="840" height="100" rx="20" fill="#edf6ff" stroke="#abcbe4" stroke-width="2"/>
+<text x="700.0" y="264.24" text-anchor="middle" style="font-size:28px;fill:#17243a;font-weight:400"><tspan x="700.0" dy="0">Взять небольшую порцию старых данных</tspan></text>
+<path d="M700 305 V360" class="arrow"/>
+<rect x="280" y="360" width="840" height="125" rx="20" fill="#edf6ff" stroke="#abcbe4" stroke-width="2"/>
+<text x="700.0" y="412.84000000000003" text-anchor="middle" style="font-size:28px;fill:#17243a;font-weight:400"><tspan x="700.0" dy="0">Найти документы и записи,</tspan><tspan x="700.0" dy="37.800000000000004">которые ссылаются на эти данные</tspan></text>
+<path d="M700 485 V540" class="arrow"/>
+<rect x="280" y="540" width="840" height="115" rx="20" fill="#edf6ff" stroke="#abcbe4" stroke-width="2"/>
+<text x="700.0" y="606.74" text-anchor="middle" style="font-size:28px;fill:#17243a;font-weight:400"><tspan x="700.0" dy="0">Добавить найденное в ту же группу</tspan></text>
+<path d="M700 655 V725" class="arrow"/>
+<polygon points="700,725 950,800 700,875 450,800" fill="#fff1d5" stroke="#d5b879" stroke-width="2"/>
+<text x="700" y="790.1" text-anchor="middle" style="font-size:28px;fill:#17243a;font-weight:400"><tspan x="700" dy="0">Нашлись новые</tspan><tspan x="700" dy="37.800000000000004">связанные данные?</tspan></text>
+<text x="272" y="777" text-anchor="middle" style="font-size:24px;fill:#475569;font-weight:400"><tspan x="272" dy="0">Да — проверить и их</tspan></text>
+<path d="M450 800 H100 V420 H280" class="arrow"/>
+<text x="756" y="924" text-anchor="middle" style="font-size:26px;fill:#475569;font-weight:400"><tspan x="756" dy="0">Нет</tspan></text>
+<path d="M700 875 V970" class="arrow"/>
+<polygon points="700,970 975,1045 700,1120 425,1045" fill="#fff1d5" stroke="#d5b879" stroke-width="2"/>
+<text x="700" y="1035.1" text-anchor="middle" style="font-size:28px;fill:#17243a;font-weight:400"><tspan x="700" dy="0">Другой работник занят</tspan><tspan x="700" dy="37.800000000000004">теми же данными?</tspan></text>
+<text x="1020" y="1022" text-anchor="middle" style="font-size:25px;fill:#475569;font-weight:400"><tspan x="1020" dy="0">Да</tspan></text>
+<path d="M975 1045 H1170 V1150" class="arrow"/>
+<rect x="970" y="1150" width="370" height="190" rx="20" fill="#edf6ff" stroke="#abcbe4" stroke-width="2"/>
+<text x="1155.0" y="1202.625" text-anchor="middle" style="font-size:25px;fill:#17243a;font-weight:400"><tspan x="1155.0" dy="0">Пока отложить.</tspan><tspan x="1155.0" dy="33.75">Заняться другой</tspan><tspan x="1155.0" dy="33.75">группой. Вернуться</tspan><tspan x="1155.0" dy="33.75">к этой позже.</tspan></text>
+<text x="720" y="1168" text-anchor="start" style="font-size:25px;fill:#475569;font-weight:400"><tspan x="720" dy="0">Нет</tspan></text>
+<path d="M700 1120 V1210" class="arrow"/>
+<rect x="160" y="1210" width="730" height="110" rx="20" fill="#edf6ff" stroke="#abcbe4" stroke-width="2"/>
+<text x="525.0" y="1255.34" text-anchor="middle" style="font-size:28px;fill:#17243a;font-weight:400"><tspan x="525.0" dy="0">Записать готовый список</tspan><tspan x="525.0" dy="37.800000000000004">во временные регистры</tspan></text>
+<path d="M525 1320 V1335" class="arrow"/>
+<rect x="60" y="1390" width="410" height="190" rx="20" fill="#fff7e8" stroke="#d8bd8c" stroke-width="2"/>
+<text x="265.0" y="1513.14" text-anchor="middle" style="font-size:28px;fill:#17243a;font-weight:400"></text>
+<text x="265" y="1437" text-anchor="middle" style="font-size:34px;fill:#92400e;font-weight:700"><tspan x="265" dy="0">План</tspan></text>
+<text x="265" y="1490" text-anchor="middle" style="font-size:27px;fill:#17243a;font-weight:400"><tspan x="265" dy="0">Что удалить</tspan><tspan x="265" dy="36.45">вместе</tspan></text>
+<rect x="495" y="1390" width="410" height="190" rx="20" fill="#fff7e8" stroke="#d8bd8c" stroke-width="2"/>
+<text x="700.0" y="1513.14" text-anchor="middle" style="font-size:28px;fill:#17243a;font-weight:400"></text>
+<text x="700" y="1437" text-anchor="middle" style="font-size:34px;fill:#92400e;font-weight:700"><tspan x="700" dy="0">Узлы</tspan></text>
+<text x="700" y="1490" text-anchor="middle" style="font-size:27px;fill:#17243a;font-weight:400"><tspan x="700" dy="0">Какие документы</tspan><tspan x="700" dy="36.45">и записи нашли</tspan></text>
+<rect x="930" y="1390" width="410" height="190" rx="20" fill="#fff7e8" stroke="#d8bd8c" stroke-width="2"/>
+<text x="1135.0" y="1513.14" text-anchor="middle" style="font-size:28px;fill:#17243a;font-weight:400"></text>
+<text x="1135" y="1437" text-anchor="middle" style="font-size:34px;fill:#92400e;font-weight:700"><tspan x="1135" dy="0">Связи</tspan></text>
+<text x="1135" y="1490" text-anchor="middle" style="font-size:27px;fill:#17243a;font-weight:400"><tspan x="1135" dy="0">Кто на что</tspan><tspan x="1135" dy="36.45">ссылается</tspan></text>
+<text x="525" y="1370" text-anchor="middle" style="font-size:25px;fill:#92400e;font-weight:400"><tspan x="525" dy="0">Записная книжка этой порции</tspan></text>
+<text x="700" y="1644" text-anchor="middle" style="font-size:27px;fill:#166534;font-weight:400"><tspan x="700" dy="0">После сохранения свободный работник получает группу для удаления.</tspan></text>
+<text x="700" y="1710" text-anchor="middle" style="font-size:24px;fill:#475569;font-weight:400"><tspan x="700" dy="0">Пример: накладная ссылается на старый заказ — оба попадают в группу.</tspan><tspan x="700" dy="32.400000000000006">Временный список составляется для порции, а не для всей базы сразу.</tspan></text>
+</svg>

@@ -1,0 +1,18 @@
+@startuml
+skinparam defaultFontName Segoe UI
+skinparam defaultFontSize 20
+skinparam shadowing false
+skinparam backgroundColor #F8FAFC
+title Если нажать «Остановить обрезку»
+start
+:Принять просьбу об остановке;
+:Прекратить чтение и запретить новые удаления;
+:Дождаться окончания текущих удалений;
+:Очистить временные списки и команды;
+:Сохранить результаты и ошибки;
+stop
+note right
+  То, что уже успешно удалено,
+  остановка не восстанавливает.
+end note
+@enduml
