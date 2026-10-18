@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
 	<Title>
 		<v8:item>
@@ -10,7 +10,7 @@
 	<CommandBarLocation>None</CommandBarLocation>
 	<Width>110</Width>
 	<Height>28</Height>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1" />
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -20,7 +20,7 @@
 		<UsualGroup name="ГруппаШапка" id="1">
 			<Group>AlwaysHorizontal</Group>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="2" />
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="2"/>
 			<ChildItems>
 				<InputField name="ДатаОбрезкиПоле" id="3">
 					<DataPath>ДатаОбрезки</DataPath>
@@ -32,8 +32,8 @@
 					</Title>
 					<AutoMarkIncomplete>true</AutoMarkIncomplete>
 					<Width>16</Width>
-					<ContextMenu name="ДатаОбрезкиПолеКонтекстноеМеню" id="4" />
-					<ExtendedTooltip name="ДатаОбрезкиПолеРасширеннаяПодсказка" id="5" />
+					<ContextMenu name="ДатаОбрезкиПолеКонтекстноеМеню" id="4"/>
+					<ExtendedTooltip name="ДатаОбрезкиПолеРасширеннаяПодсказка" id="5"/>
 				</InputField>
 				<Button name="НачатьОбрезкуКнопка" id="6">
 					<Representation>PictureAndText</Representation>
@@ -45,7 +45,7 @@
 							<v8:content>Начать обрезку</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="НачатьОбрезкуКнопкаРасширеннаяПодсказка" id="7" />
+					<ExtendedTooltip name="НачатьОбрезкуКнопкаРасширеннаяПодсказка" id="7"/>
 				</Button>
 				<Button name="ОстановитьОбрезкуКнопка" id="58">
 					<Representation>PictureAndText</Representation>
@@ -57,7 +57,7 @@
 							<v8:content>Остановить обрезку</v8:content>
 						</v8:item>
 					</Title>
-					<ExtendedTooltip name="ОстановитьОбрезкуКнопкаРасширеннаяПодсказка" id="59" />
+					<ExtendedTooltip name="ОстановитьОбрезкуКнопкаРасширеннаяПодсказка" id="59"/>
 				</Button>
 				<LabelDecoration name="ГраницаПояснение" id="8">
 					<Title formatted="false">
@@ -66,15 +66,43 @@
 							<v8:content>Удаляются данные строго раньше указанной даты. Входящий каскад может затронуть более новые данные.</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="ГраницаПояснениеКонтекстноеМеню" id="9" />
-					<ExtendedTooltip name="ГраницаПояснениеРасширеннаяПодсказка" id="10" />
+					<ContextMenu name="ГраницаПояснениеКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="ГраницаПояснениеРасширеннаяПодсказка" id="10"/>
 				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаРежимОбрезки" id="69">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаРежимОбрезкиРасширеннаяПодсказка" id="70"/>
+			<ChildItems>
+				<CheckBoxField name="УскоренныйРежимПоле" id="71">
+					<DataPath>УскоренныйРежим</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ускоренная обрезка (риск битых ссылок)</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="УскоренныйРежимПолеКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="УскоренныйРежимПолеРасширеннаяПодсказка" id="73"/>
+				</CheckBoxField>
+				<CheckBoxField name="ТрассировкаПоле" id="76">
+					<DataPath>Трассировка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Трассировка выполнения</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТрассировкаПолеКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="ТрассировкаПолеРасширеннаяПодсказка" id="78"/>
+				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаРежимВремя" id="53">
 			<Group>AlwaysHorizontal</Group>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаРежимВремяРасширеннаяПодсказка" id="54" />
+			<ExtendedTooltip name="ГруппаРежимВремяРасширеннаяПодсказка" id="54"/>
 			<ChildItems>
 				<LabelField name="РежимВыполненияПоле" id="11">
 					<DataPath>РежимВыполнения</DataPath>
@@ -84,15 +112,15 @@
 							<v8:content>Режим</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="РежимВыполненияПолеКонтекстноеМеню" id="12" />
-					<ExtendedTooltip name="РежимВыполненияПолеРасширеннаяПодсказка" id="13" />
+					<ContextMenu name="РежимВыполненияПолеКонтекстноеМеню" id="12"/>
+					<ExtendedTooltip name="РежимВыполненияПолеРасширеннаяПодсказка" id="13"/>
 				</LabelField>
 				<LabelField name="ВремяВыполненияПоле" id="55">
 					<DataPath>ВремяВыполнения</DataPath>
 					<TitleLocation>None</TitleLocation>
-					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" />
-					<ContextMenu name="ВремяВыполненияПолеКонтекстноеМеню" id="56" />
-					<ExtendedTooltip name="ВремяВыполненияПолеРасширеннаяПодсказка" id="57" />
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="ВремяВыполненияПолеКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ВремяВыполненияПолеРасширеннаяПодсказка" id="57"/>
 				</LabelField>
 			</ChildItems>
 		</UsualGroup>
@@ -101,32 +129,32 @@
 			<ReadOnly>true</ReadOnly>
 			<CommandBarLocation>None</CommandBarLocation>
 			<Height>18</Height>
-			<ContextMenu name="РаботыТаблицаКонтекстноеМеню" id="15" />
-			<AutoCommandBar name="РаботыТаблицаКоманднаяПанель" id="16" />
-			<ExtendedTooltip name="РаботыТаблицаРасширеннаяПодсказка" id="17" />
+			<ContextMenu name="РаботыТаблицаКонтекстноеМеню" id="15"/>
+			<AutoCommandBar name="РаботыТаблицаКоманднаяПанель" id="16"/>
+			<ExtendedTooltip name="РаботыТаблицаРасширеннаяПодсказка" id="17"/>
 			<SearchStringAddition name="РаботыТаблицаСтрокаПоиска" id="18">
 				<AdditionSource>
 					<Item>РаботыТаблица</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="РаботыТаблицаСтрокаПоискаКонтекстноеМеню" id="19" />
-				<ExtendedTooltip name="РаботыТаблицаСтрокаПоискаРасширеннаяПодсказка" id="20" />
+				<ContextMenu name="РаботыТаблицаСтрокаПоискаКонтекстноеМеню" id="19"/>
+				<ExtendedTooltip name="РаботыТаблицаСтрокаПоискаРасширеннаяПодсказка" id="20"/>
 			</SearchStringAddition>
 			<ViewStatusAddition name="РаботыТаблицаСостояниеПросмотра" id="21">
 				<AdditionSource>
 					<Item>РаботыТаблица</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="РаботыТаблицаСостояниеПросмотраКонтекстноеМеню" id="22" />
-				<ExtendedTooltip name="РаботыТаблицаСостояниеПросмотраРасширеннаяПодсказка" id="23" />
+				<ContextMenu name="РаботыТаблицаСостояниеПросмотраКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="РаботыТаблицаСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
 			</ViewStatusAddition>
 			<SearchControlAddition name="РаботыТаблицаУправлениеПоиском" id="24">
 				<AdditionSource>
 					<Item>РаботыТаблица</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="РаботыТаблицаУправлениеПоискомКонтекстноеМеню" id="25" />
-				<ExtendedTooltip name="РаботыТаблицаУправлениеПоискомРасширеннаяПодсказка" id="26" />
+				<ContextMenu name="РаботыТаблицаУправлениеПоискомКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="РаботыТаблицаУправлениеПоискомРасширеннаяПодсказка" id="26"/>
 			</SearchControlAddition>
 			<ChildItems>
 				<InputField name="РаботыНаименование" id="27">
@@ -138,8 +166,8 @@
 						</v8:item>
 					</Title>
 					<Width>40</Width>
-					<ContextMenu name="РаботыНаименованиеКонтекстноеМеню" id="28" />
-					<ExtendedTooltip name="РаботыНаименованиеРасширеннаяПодсказка" id="29" />
+					<ContextMenu name="РаботыНаименованиеКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="РаботыНаименованиеРасширеннаяПодсказка" id="29"/>
 				</InputField>
 				<InputField name="РаботыЭтап" id="30">
 					<DataPath>Работы.Этап</DataPath>
@@ -149,8 +177,8 @@
 							<v8:content>Этап</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="РаботыЭтапКонтекстноеМеню" id="31" />
-					<ExtendedTooltip name="РаботыЭтапРасширеннаяПодсказка" id="32" />
+					<ContextMenu name="РаботыЭтапКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="РаботыЭтапРасширеннаяПодсказка" id="32"/>
 				</InputField>
 				<InputField name="РаботыВсего" id="36">
 					<DataPath>Работы.Всего</DataPath>
@@ -160,8 +188,8 @@
 							<v8:content>Всего</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="РаботыВсегоКонтекстноеМеню" id="37" />
-					<ExtendedTooltip name="РаботыВсегоРасширеннаяПодсказка" id="38" />
+					<ContextMenu name="РаботыВсегоКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="РаботыВсегоРасширеннаяПодсказка" id="38"/>
 				</InputField>
 				<InputField name="РаботыЗафиксировано" id="39">
 					<DataPath>Работы.Зафиксировано</DataPath>
@@ -171,8 +199,8 @@
 							<v8:content>Зафиксировано</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="РаботыЗафиксированоКонтекстноеМеню" id="40" />
-					<ExtendedTooltip name="РаботыЗафиксированоРасширеннаяПодсказка" id="41" />
+					<ContextMenu name="РаботыЗафиксированоКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="РаботыЗафиксированоРасширеннаяПодсказка" id="41"/>
 				</InputField>
 				<InputField name="РаботыТекущаяПопытка" id="42">
 					<DataPath>Работы.ТекущаяПопытка</DataPath>
@@ -182,8 +210,8 @@
 							<v8:content>Текущая попытка</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="РаботыТекущаяПопыткаКонтекстноеМеню" id="43" />
-					<ExtendedTooltip name="РаботыТекущаяПопыткаРасширеннаяПодсказка" id="44" />
+					<ContextMenu name="РаботыТекущаяПопыткаКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="РаботыТекущаяПопыткаРасширеннаяПодсказка" id="44"/>
 				</InputField>
 				<InputField name="РаботыПрогресс" id="45">
 					<DataPath>Работы.Прогресс</DataPath>
@@ -193,9 +221,9 @@
 							<v8:content>Прогресс, %</v8:content>
 						</v8:item>
 					</Title>
-					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100" />
-					<ContextMenu name="РаботыПрогрессКонтекстноеМеню" id="46" />
-					<ExtendedTooltip name="РаботыПрогрессРасширеннаяПодсказка" id="47" />
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<ContextMenu name="РаботыПрогрессКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="РаботыПрогрессРасширеннаяПодсказка" id="47"/>
 				</InputField>
 				<InputField name="РаботыОшибок" id="48">
 					<DataPath>Работы.Ошибок</DataPath>
@@ -205,23 +233,57 @@
 							<v8:content>Ошибок</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="РаботыОшибокКонтекстноеМеню" id="49" />
-					<ExtendedTooltip name="РаботыОшибокРасширеннаяПодсказка" id="50" />
+					<ContextMenu name="РаботыОшибокКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="РаботыОшибокРасширеннаяПодсказка" id="50"/>
 				</InputField>
 			</ChildItems>
 		</Table>
-		<Button name="ОшибкиКнопка" id="51">
-			<Representation>PictureAndText</Representation>
-			<Width>20</Width>
-			<CommandName>Form.Command.ОткрытьОшибки</CommandName>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Посмотреть ошибки</v8:content>
-				</v8:item>
-			</Title>
-			<ExtendedTooltip name="ОшибкиКнопкаРасширеннаяПодсказка" id="52" />
+		<UsualGroup name="ГруппаНижниеКоманды" id="60">
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="ГруппаНижниеКомандыРасширеннаяПодсказка" id="61"/>
+			<ChildItems>
+				<Button name="ОшибкиКнопка" id="51">
+					<Representation>PictureAndText</Representation>
+					<Width>20</Width>
+					<CommandName>Form.Command.ОткрытьОшибки</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Посмотреть ошибки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОшибкиКнопкаРасширеннаяПодсказка" id="52"/>
+				</Button>
+				<Button name="НачатьОбфускациюКнопка" id="62">
+					<CommandName>Form.Command.НачатьОбфускацию</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начать обфускацию</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="НачатьОбфускациюКнопкаРасширеннаяПодсказка" id="63"/>
+				</Button>
+				<Button name="СохранитьТрассировкуКнопка" id="74">
+					<CommandName>Form.Command.СохранитьТрассировку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сохранить трассировку</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СохранитьТрассировкуКнопкаРасширеннаяПодсказка" id="75"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="РезультатОбфускацииСсылка" id="67">
+			<Type>Hyperlink</Type>
+			<CommandName>Form.Command.ОткрытьРезультатОбфускации</CommandName>
+			<Representation>Text</Representation>
+			<ExtendedTooltip name="РезультатОбфускацииСсылкаРасширеннаяПодсказка" id="68"/>
 		</Button>
+		
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="53">
@@ -307,7 +369,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
+							<v8:Length>300</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -392,6 +454,25 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="ИтогОбфускации" id="69">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="УскоренныйРежим" id="70">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Трассировка" id="71">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="НачатьОбрезку" id="67">
@@ -420,6 +501,33 @@
 				</v8:item>
 			</Title>
 			<Action>ОстановитьОбрезку</Action>
+		</Command>
+		<Command name="НачатьОбфускацию" id="70">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начать обфускацию</v8:content>
+				</v8:item>
+			</Title>
+			<Action>НачатьОбфускацию</Action>
+		</Command>
+		<Command name="ОткрытьРезультатОбфускации" id="71">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Посмотреть результат обфускации</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ОткрытьРезультатОбфускации</Action>
+		</Command>
+		<Command name="СохранитьТрассировку" id="72">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить трассировку</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СохранитьТрассировку</Action>
 		</Command>
 	</Commands>
 </Form>

@@ -40,7 +40,7 @@
           <v8:content>Cutter3000</v8:content>
         </v8:item>
       </Synonym>
-      <Comment />
+      <Comment/>
       <ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
       <KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
       <NamePrefix>Cutter3000_</NamePrefix>
@@ -48,13 +48,13 @@
       <DefaultRoles>
         <xr:Item>Role.Cutter3000_Использование</xr:Item>
       </DefaultRoles>
-      <Vendor />
-      <Version>1.0.0.0</Version>
-      <BriefInformation />
-      <DetailedInformation />
-      <Copyright />
-      <VendorInformationAddress />
-      <ConfigurationInformationAddress />
+      <Vendor/>
+			<Version>1.1.0.23</Version>
+      <BriefInformation/>
+      <DetailedInformation/>
+      <Copyright/>
+      <VendorInformationAddress/>
+      <ConfigurationInformationAddress/>
     </Properties>
     <ChildObjects>
       <Subsystem>Cutter3000_Обслуживание</Subsystem>
@@ -67,9 +67,17 @@
 			<CommonPicture>Cutter3000_Удаление</CommonPicture>
 			<CommonPicture>Cutter3000_Подсистема</CommonPicture>
 			<CommonPicture>Cutter3000_КартинкиРабот</CommonPicture>
+			<CommonPicture>Cutter3000_Обфускация</CommonPicture>
+			<CommonPicture>Cutter3000_РаботникОбфускации</CommonPicture>
+			<CommonPicture>Cutter3000_ВидыОбъектов</CommonPicture>
+			<CommonPicture>Cutter3000_ОтметитьВсе</CommonPicture>
+			<CommonPicture>Cutter3000_СнятьОтметки</CommonPicture>
+			<CommonPicture>Cutter3000_Справка</CommonPicture>
       <Role>Cutter3000_Использование</Role>
       <CommonModule>Cutter3000_ЗаданияСервер</CommonModule>
       <CommonModule>Cutter3000_ДанныеСервер</CommonModule>
+			<CommonModule>Cutter3000_ОбфускацияСервер</CommonModule>
+			<CommonModule>Cutter3000_ИменаПерсонажей</CommonModule>
       <CommonCommand>Cutter3000_Открыть</CommonCommand>
       <DataProcessor>Cutter3000_ОбрезкаБазы</DataProcessor>
       <InformationRegister>Cutter3000_Задания</InformationRegister>
@@ -78,6 +86,7 @@
 			<InformationRegister>Cutter3000_Связи</InformationRegister>
 			<InformationRegister>Cutter3000_Ошибки</InformationRegister>
 			<InformationRegister>Cutter3000_Очередь</InformationRegister>
+			<InformationRegister>Cutter3000_Управление</InformationRegister>
     </ChildObjects>
   </Configuration>
 </MetaDataObject>

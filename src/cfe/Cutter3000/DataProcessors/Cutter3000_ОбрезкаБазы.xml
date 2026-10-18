@@ -31,6 +31,15 @@
 			<Form>ОсновнаяФорма</Form>
 			<Form>ФормаОшибок</Form>
 			<Form>ДетализацияОшибки</Form>
+			<Form>НастройкиОбфускации</Form>
+			<Form>СправкаОбфускации</Form>
+			<Form>РезультатОбфускации</Form>
+			<Template>СправкаПравила</Template>
+			<Template>СправкаИсключения</Template>
+			<Template>СправкаРоли</Template>
+			<Template>СправкаИстория</Template>
+			<Template>СловарьОрганизаций</Template>
+			<Template>СловарьОрганизацийИсточники</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
