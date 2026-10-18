@@ -54,7 +54,6 @@
 - [Настройка обфускации](docs/obfuscation.md)
 - [Обычный и ускоренный режимы](docs/truncation-modes.md)
 - [Алгоритм и служебные регистры](docs/algorithm.md)
-- [Трассировка](docs/tracing.md)
 - [Проверки и результаты](docs/testing.md)
 - [Источники словаря организаций](docs/evidence/organization-dictionary-sources-20261016.md)
 
