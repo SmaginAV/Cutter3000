@@ -87,6 +87,7 @@
 					<ExtendedTooltip name="УскоренныйРежимПолеРасширеннаяПодсказка" id="73"/>
 				</CheckBoxField>
 				<CheckBoxField name="ТрассировкаПоле" id="76">
+					<Visible>false</Visible>
 					<DataPath>Трассировка</DataPath>
 					<Title>
 						<v8:item>
@@ -266,6 +267,7 @@
 					<ExtendedTooltip name="НачатьОбфускациюКнопкаРасширеннаяПодсказка" id="63"/>
 				</Button>
 				<Button name="СохранитьТрассировкуКнопка" id="74">
+					<Visible>false</Visible>
 					<CommandName>Form.Command.СохранитьТрассировку</CommandName>
 					<Title>
 						<v8:item>
