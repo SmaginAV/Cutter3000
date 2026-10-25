@@ -49,7 +49,7 @@
         <xr:Item>Role.Cutter3000_Использование</xr:Item>
       </DefaultRoles>
       <Vendor/>
-			<Version>1.1.0.39</Version>
+			<Version>1.2.0.00</Version>
       <BriefInformation/>
       <DetailedInformation/>
       <Copyright/>
@@ -78,6 +78,7 @@
       <CommonModule>Cutter3000_ДанныеСервер</CommonModule>
 			<CommonModule>Cutter3000_ОбфускацияСервер</CommonModule>
 			<CommonModule>Cutter3000_ИменаПерсонажей</CommonModule>
+			<CommonModule>Cutter3000_ОчередьКаскадов</CommonModule>
       <CommonCommand>Cutter3000_Открыть</CommonCommand>
       <DataProcessor>Cutter3000_ОбрезкаБазы</DataProcessor>
       <InformationRegister>Cutter3000_Задания</InformationRegister>
@@ -87,6 +88,7 @@
 			<InformationRegister>Cutter3000_Ошибки</InformationRegister>
 			<InformationRegister>Cutter3000_Очередь</InformationRegister>
 			<InformationRegister>Cutter3000_Управление</InformationRegister>
+			<InformationRegister>Cutter3000_Пакеты</InformationRegister>
     </ChildObjects>
   </Configuration>
 </MetaDataObject>

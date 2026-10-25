@@ -61,6 +61,17 @@
 		<right><name>Update</name><value>true</value></right>
 	</object>
 	<object>
+		<name>InformationRegister.Cutter3000_Пакеты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.Cutter3000_ОбрезкаБазы</name>
 		<right>
 			<name>Use</name>
