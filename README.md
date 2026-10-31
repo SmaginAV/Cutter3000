@@ -2,11 +2,11 @@
 
 <img src="docs/images/cutter3000.png" width="64" height="64" alt="Cutter3000">
 
-**Обрезка и обфускация тестовых копий 1С. Версия 1.2.0.00**
+**Обрезка и обфускация тестовых копий 1С. Версия 1.2.0.02**
 
 Сделал Cutter3000, чтобы готовить тестовые базы: удалять старые документы вместе со связанными данными и заменять персональные значения вымышленными. Это самостоятельное расширение `.cfe`, без БСП и заимствования объектов основной конфигурации.
 
-[Скачать расширение](https://github.com/SmaginAV/Cutter3000/releases/download/v1.2.0.00/Cutter3000.cfe) · [Описание выпуска](https://github.com/SmaginAV/Cutter3000/releases/tag/v1.2.0.00) · [Установка](docs/installation.md)
+[Скачать расширение](https://github.com/SmaginAV/Cutter3000/releases/download/v1.2.0.02/Cutter3000.cfe) · [Описание выпуска](https://github.com/SmaginAV/Cutter3000/releases/tag/v1.2.0.02) · [Установка](docs/installation.md)
 
 **Результат завершённой обрезки**
 

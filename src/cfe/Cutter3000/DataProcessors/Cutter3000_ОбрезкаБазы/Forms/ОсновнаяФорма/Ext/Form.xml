@@ -86,6 +86,20 @@
 					<ContextMenu name="УскоренныйРежимПолеКонтекстноеМеню" id="72"/>
 					<ExtendedTooltip name="УскоренныйРежимПолеРасширеннаяПодсказка" id="73"/>
 				</CheckBoxField>
+				<CheckBoxField name="ТриРаботникаУдаленияПоле" id="79">
+					<DataPath>ТриРаботникаУдаления</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>3 работника удаления</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ТриРаботникаУдаленияПолеКонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="ТриРаботникаУдаленияПолеРасширеннаяПодсказка" id="81"/>
+					<Events>
+						<Event name="OnChange">ТриРаботникаУдаленияПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
 				<CheckBoxField name="ТрассировкаПоле" id="76">
 					<Visible>false</Visible>
 					<DataPath>Трассировка</DataPath>
@@ -471,6 +485,11 @@
 			</Type>
 		</Attribute>
 		<Attribute name="Трассировка" id="71">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТриРаботникаУдаления" id="72">
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>

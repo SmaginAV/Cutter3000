@@ -27,4 +27,4 @@
 
 Обрезка ранее проверялась на файловой базе 8.3.27, серверной TopLog WMS / PostgreSQL на 8.3.26 и серверной «ТОиР автотранспорта» от Деснол. 
 
-[Описание выпуска](https://github.com/SmaginAV/Cutter3000/releases/tag/v1.2.0.00) · [Главная страница](../README.md).
+[Описание выпуска](https://github.com/SmaginAV/Cutter3000/releases/tag/v1.2.0.02) · [Главная страница](../README.md).
