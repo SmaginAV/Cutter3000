@@ -280,6 +280,17 @@
 					<Representation>PictureAndText</Representation>
 					<ExtendedTooltip name="НачатьОбфускациюКнопкаРасширеннаяПодсказка" id="63"/>
 				</Button>
+				<Button name="ПеренестиПользователейИБКнопка" id="82">
+					<CommandName>Form.Command.ПеренестиПользователейИБ</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перенести пользователей в пользователей ИБ</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="ПеренестиПользователейИБКнопкаРасширеннаяПодсказка" id="83"/>
+				</Button>
 				<Button name="СохранитьТрассировкуКнопка" id="74">
 					<Visible>false</Visible>
 					<CommandName>Form.Command.СохранитьТрассировку</CommandName>
@@ -549,6 +560,19 @@
 				</v8:item>
 			</Title>
 			<Action>СохранитьТрассировку</Action>
+		</Command>
+		<Command name="ПеренестиПользователейИБ" id="73">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перенести пользователей в пользователей ИБ</v8:content>
+				</v8:item>
+			</Title>
+			<Picture>
+				<xr:Ref>CommonPicture.Cutter3000_ПереносПользователейИБ</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПеренестиПользователейИБ</Action>
 		</Command>
 	</Commands>
 </Form>
